@@ -257,12 +257,16 @@ export const SideBarData = [
             title: "Utilities",
             children: [
               {
-                title: "E Invoice",
-                link: "/vouchers/sales/einvoice",
+                title: "Update Billing/Shipping",
+                link: "/sales/updatebilling",
               },
               {
-                title: "E Way Bill",
-                link: "/vouchers/sales/ewaybill",
+                title: "Update Transport",
+                link: "/sales/transport-report",
+              },
+              {
+                title: "Update Optional Fields",
+                link: "/sales/optional-field",
               },
             ],
           },
