@@ -80,8 +80,8 @@ export default function ReceiptForm() {
       </div>
 
       <div className="mt-5">
-        <Button variant="bluebutton">
-          Save <span>➔</span>
+        <Button type="submit" variant="bluebutton" icon="arrow-right-line">
+          Save
         </Button>
       </div>
     </div>

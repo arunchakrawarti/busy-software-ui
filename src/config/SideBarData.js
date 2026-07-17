@@ -238,36 +238,41 @@ export const SideBarData = [
     ],
   },
 
-  {
-    section: "COMPANY",
+   {
+    section: "VOUCHERS",
     items: [
       {
-        title: "Company",
-        icon: "ri-building-2-line",
+        title: "Sales",
+        icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Create Company",
-            link: "/company/create",
+            title: "Invoice",
+            link: "/sales/invoice",
           },
           {
-            title: "Company List",
-            link: "/company/list",
+            title: "Return/Cr.Note",
+            link: "/vouchers/sales/quotation",
+          },
+          {
+            title: "Utilities",
+            children: [
+              {
+                title: "E Invoice",
+                link: "/vouchers/sales/einvoice",
+              },
+              {
+                title: "E Way Bill",
+                link: "/vouchers/sales/ewaybill",
+              },
+            ],
           },
         ],
       },
+
       {
-        title: "Financial Year",
-        icon: "ri-calendar-2-line",
-        children: [
-          {
-            title: "Create Financial Year",
-            link: "/financial-year/create",
-          },
-          {
-            title: "Financial Year List",
-            link: "/financial-year/list",
-          },
-        ],
+        title: "Contra",
+        icon: "ri-arrow-left-right-line",
+        link: "/vouchers/contra",
       },
     ],
   },
