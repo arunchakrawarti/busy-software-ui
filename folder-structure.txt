@@ -1,0 +1,198 @@
+app/
+└── vouchers/
+    └── journal/
+        page.jsx
+
+components/
+└── pages/
+    └── vouchers/
+        └── journal/
+            Index.jsx
+            Toolbar.jsx
+            OverviewTable.jsx
+            Modal.jsx
+
+config/
+    JournalDummyData.js
+
+
+    components/
+    common/
+    atoms/
+    molecules/
+    templates/
+
+
+    MainJournalVoucher (Index.jsx)
+
+│
+├── StatCard
+├── Card
+│      ├── Toolbar
+│      └── OverviewTable
+│
+├── OverlayModal
+│      └── Modal
+│
+└── OverlayModal
+       └── AlertModal
+
+
+       components
+└── pages
+    └── vouchers
+        ├── purchase
+        │
+        ├── sales
+        │
+        ├── payment
+        │
+        ├── receipt
+        │
+        ├── contra
+        │
+        ├── journal
+        │     Index.jsx
+        │     Toolbar.jsx
+        │     OverviewTable.jsx
+        │     Modal.jsx
+        │
+        ├── debit-note
+        │
+        └── credit-note
+
+
+        components/
+└── molecules/
+    Card.jsx
+    StatCard.jsx
+    SummaryCards.jsx
+    FilterBar.jsx
+    QuickActions.jsx
+    HeaderActions.jsx
+    PageHeader.jsx
+
+
+    components/
+└── pages/
+    └── vouchers/
+        └── journal/
+            Index.jsx
+            Toolbar.jsx
+            OverviewTable.jsx
+            Modal.jsx
+            JournalEntries.jsx
+            JournalSummary.jsx
+            JournalFilters.jsx
+            RecentJournal.jsx
+            VoucherInformation.jsx
+
+            components/
+├── atoms/
+├── common/
+├── molecules/          ← Only generic reusable UI
+├── templates/
+└── pages/
+    ├── dashboard/
+    ├── company/
+    ├── masters/
+    ├── vouchers/
+    │   ├── sales/
+    │   ├── purchase/
+    │   ├── journal/
+    │   ├── payment/
+    │   ├── receipt/
+    │   ├── contra/
+    │   ├── debit-note/
+    │   └── credit-note/
+    ├── inventory/
+    ├── reports/
+    └── administration/
+
+
+
+
+
+
+
+    components/
+├── atoms/
+│   SearchBox.jsx
+│
+├── common/
+│   Button.jsx
+│   Input.jsx
+│   BasicTable.jsx
+│   Badge.jsx
+│   OverlayModal.jsx
+│   AlertModal.jsx
+│   Spinner.jsx
+│   Switch.jsx
+│
+├── molecules/
+│   Card.jsx
+│   StatCard.jsx
+│   SummaryCards.jsx
+│   FilterBar.jsx
+│   QuickActions.jsx
+│   HeaderActions.jsx
+│   PageHeader.jsx
+
+
+
+
+
+Reply 1
+
+I'll generate:
+
+components/molecules/
+    PageHeader.jsx
+    SummaryCards.jsx
+    QuickActions.jsx
+    FilterBar.jsx
+    HeaderActions.jsx
+Reply 2
+components/pages/vouchers/journal/
+    Index.jsx
+    Toolbar.jsx
+    RecentJournal.jsx
+    OverviewTable.jsx
+Reply 3
+components/pages/vouchers/journal/
+    Modal.jsx
+    VoucherInformation.jsx
+    JournalEntries.jsx
+    JournalSummary.jsx
+    JournalFilters.jsx
+
+
+
+
+components/
+└── pages/
+    └── vouchers/
+        └── contra/
+            MainContraVoucher.jsx
+            Toolbar.jsx
+            ContraFilters.jsx      // if required
+            RecentContra.jsx       // if required
+            OverviewTable.jsx
+            Modal.jsx
+            VoucherInformation.jsx
+            ContraEntries.jsx
+            ContraSummary.jsx
+
+
+
+
+
+            components/pages/vouchers/debit-note/
+
+│── index.jsx
+│── Toolbar.jsx
+│── Stats.jsx
+│── DebitNoteTable.jsx
+│── Filters.jsx
+│── Modal.jsx
+│── ViewDetails.jsx

@@ -1,0 +1,68 @@
+export const statusOptions = [
+    {
+        label: "Active",
+        value: "Active",
+    },
+    {
+        label: "Inactive",
+        value: "Inactive",
+    },
+];
+
+export const warehouses = [
+    {
+        id: 1,
+        name: "Delhi Warehouse",
+        code: "DEL001",
+        contactPerson: "Rohit Rana",
+        phone: "9876543210",
+        email: "delhi@company.com",
+        address: "Sector 62",
+        city: "New Delhi",
+        status: "Active",
+    },
+    {
+        id: 2,
+        name: "Noida Warehouse",
+        code: "NOD001",
+        contactPerson: "Amit Kumar",
+        phone: "9811122233",
+        email: "noida@company.com",
+        address: "Sector 18",
+        city: "Noida",
+        status: "Active",
+    },
+    {
+        id: 3,
+        name: "Gurugram Warehouse",
+        code: "GGN001",
+        contactPerson: "Vikas Sharma",
+        phone: "9898989898",
+        email: "gurugram@company.com",
+        address: "Cyber City",
+        city: "Gurugram",
+        status: "Active",
+    },
+    {
+        id: 4,
+        name: "Jaipur Warehouse",
+        code: "JPR001",
+        contactPerson: "Ankit Verma",
+        phone: "9870011223",
+        email: "jaipur@company.com",
+        address: "Tonk Road",
+        city: "Jaipur",
+        status: "Inactive",
+    },
+    {
+        id: 5,
+        name: "Lucknow Warehouse",
+        code: "LKO001",
+        contactPerson: "Deepak Singh",
+        phone: "9123456789",
+        email: "lucknow@company.com",
+        address: "Gomti Nagar",
+        city: "Lucknow",
+        status: "Active",
+    },
+];

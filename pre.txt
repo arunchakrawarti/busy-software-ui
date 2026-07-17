@@ -1,0 +1,1 @@
+<pre className="max-h-36 overflow-auto">{JSON.stringify(data, null, 2)}</pre>
