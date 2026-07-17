@@ -246,11 +246,11 @@ export const SideBarData = [
         icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Invoice",
+            title: "Bill",
             link: "/sales/invoice",
           },
           {
-            title: "Return/Cr.Note",
+            title: "Return/Dr.Note",
             link: "/sales/return-note",
           },
           {
@@ -281,59 +281,45 @@ export const SideBarData = [
     ],
   },
 
-  {
-    section: "MASTERS",
+   {
+    section: "VOUCHERS",
     items: [
       {
-        title: "Account Master",
-        icon: "ri-contacts-book-2-line",
+        title: "Purchase",
+        icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Account Group",
-            link: "/masters/accounts/group",
+            title: "Invoice",
+            link: "/purchase/bill",
           },
           {
-            title: "Account",
-            link: "/masters/accounts/list",
+            title: "Return/Cr.Note",
+            link: "/sales/return-note",
+          },
+          {
+            title: "Utilities",
+            children: [
+              {
+                title: "Update Billing/Shipping",
+                link: "/sales/updatebilling",
+              },
+              {
+                title: "Update Transport",
+                link: "/sales/transport-report",
+              },
+              {
+                title: "Update Optional Fields",
+                link: "/sales/optional-field",
+              },
+            ],
           },
         ],
       },
 
       {
-        title: "Item Master",
-        icon: "ri-box-3-line",
-        children: [
-          {
-            title: "Category",
-            link: "/masters/items/category",
-          },
-          {
-            title: "Items",
-            link: "/masters/items",
-          },
-          {
-            title: "Brand",
-            link: "/masters/items/brand",
-          },
-        ],
-      },
-
-      {
-        title: "Unit Master",
-        icon: "ri-ruler-line",
-        link: "/masters/units",
-      },
-
-      {
-        title: "GST Master",
-        icon: "ri-percent-line",
-        link: "/masters/gst",
-      },
-
-      {
-        title: "Warehouse",
-        icon: "ri-store-2-line",
-        link: "/masters/warehouse",
+        title: "Contra",
+        icon: "ri-arrow-left-right-line",
+        link: "/vouchers/contra",
       },
     ],
   },

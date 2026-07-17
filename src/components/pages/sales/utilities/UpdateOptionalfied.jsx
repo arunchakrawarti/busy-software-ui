@@ -10,7 +10,7 @@ export default function UpdateOptionalfied() {
           <span className="text-slate-400 font-medium">Mode</span>
           <span className="text-slate-800 font-bold">Voucher No. Wise</span>
         </div>
-
+        
         <Button
           variant="outline"
           icon="filter-3-line"
