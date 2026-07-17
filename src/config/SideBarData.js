@@ -251,7 +251,7 @@ export const SideBarData = [
           },
           {
             title: "Return/Cr.Note",
-            link: "/vouchers/sales/quotation",
+            link: "/sales/return-note",
           },
           {
             title: "Utilities",
