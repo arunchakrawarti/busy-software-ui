@@ -1,4 +1,5 @@
 "use client";
+import Badge from "@/components/common/Badge";
 import BasicTable from "@/components/common/BasicTable";
 import {
   Mail,
@@ -85,14 +86,14 @@ const columns = [
   },
 
   {
-    label: "STATUS",
-    key: "status",
-    render: (value) => (
-      <span className="font-semibold text-black">
-        {value}
-      </span>
-    ),
-  },
+  label: "STATUS",
+  key: "status",
+  render: (value) => (
+    <Badge
+      text={value}
+    />
+  ),
+},
 ];
 
 const actions = [
