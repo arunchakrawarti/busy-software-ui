@@ -58,9 +58,7 @@ const columns = [
     label: "VCH./BILL NO",
     key: "invoiceNo",
     render: (value) => (
-      <span className="font-semibold text-slate-800">
-        {value}
-      </span>
+      <span className="font-semibold text-slate-800">{value}</span>
     ),
   },
   {

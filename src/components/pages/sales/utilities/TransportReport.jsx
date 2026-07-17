@@ -1,7 +1,7 @@
-import Button from '@/components/common/Button'
-import Input from '@/components/common/Input'
-import React from 'react'
-import TransportTable from './TrnasportTable'
+import Button from "@/components/common/Button";
+import Input from "@/components/common/Input";
+import React from "react";
+import TransportTable from "./TrnasportTable";
 
 const TransportReport = () => {
   return (
@@ -19,8 +19,6 @@ const TransportReport = () => {
         />
       </div>
       <div className="grid mt-5 bg-white p-3 rounded-lg grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end">
-        
-        {/* SERIES Select Input */}
         <Input
           label="SERIES"
           type="select"
@@ -32,23 +30,20 @@ const TransportReport = () => {
           className="w-full h-11"
         />
 
-        {/* FROM Date Input */}
         <Input
           label="FROM"
           type="date"
-          defaultValue="2026-04-01" // 01-04-2026
+          defaultValue="2026-04-01"
           className="w-full h-11"
         />
 
-        {/* TO Date Input */}
         <Input
           label="TO"
           type="date"
-          defaultValue="2026-07-17" // 17-07-2026
+          defaultValue="2026-07-17"
           className="w-full h-11"
         />
 
-        {/* VOUCHER TYPE Select Input */}
         <Input
           label="VOUCHER TYPE"
           type="select"
@@ -59,11 +54,10 @@ const TransportReport = () => {
           ]}
           className="w-full h-11"
         />
-
       </div>
-      <TransportTable/>
+      <TransportTable />
     </div>
-  )
-}
+  );
+};
 
-export default TransportReport
+export default TransportReport;
