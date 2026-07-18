@@ -5,7 +5,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <MainLayout>
+      <MainLayout title="Update Billing/shipping">
         <UpdateBillingForm/>
       </MainLayout>
     </div>

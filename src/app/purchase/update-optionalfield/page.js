@@ -5,7 +5,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <MainLayout>
+      <MainLayout title="Update Voucher Optional Fields">
         <UpdateOptionalfied/>
       </MainLayout>
     </div>
