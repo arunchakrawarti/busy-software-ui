@@ -136,7 +136,7 @@ export const SideBarData = [
                 link: "/party/customer",
               },
               {
-                title: "op Bill References",
+                title: "Op Bill References",
                 link: "/party/customer",
               },
               {
