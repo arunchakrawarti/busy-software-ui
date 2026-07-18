@@ -1,7 +1,10 @@
 "use client";
 import Badge from "@/components/common/Badge";
 import BasicTable from "@/components/common/BasicTable";
-import { Mail, Printer, MoreVertical } from "lucide-react";
+import {
+  Pencil,
+  Trash2,
+} from "lucide-react";
 
 const data = [
   {
@@ -67,21 +70,15 @@ const columns = [
 const actions = [
   () => (
     <button>
-      <Mail size={18} className="text-slate-500" />
+      <Pencil size={18} className="text-blue-500" />
     </button>
   ),
 
   () => (
     <button>
-      <Printer size={18} className="text-slate-500" />
+      <Trash2 size={18} className="text-red-500" />
     </button>
-  ),
-
-  () => (
-    <button>
-      <MoreVertical size={18} className="text-slate-500" />
-    </button>
-  ),
+  )
 ];
 
 export default function ActiveTable() {
