@@ -10,6 +10,8 @@
 //     ],
 //   },
 
+import { title } from "framer-motion/client";
+
 //   {
 //     section: "COMPANY",
 //     items: [
@@ -294,26 +296,24 @@ export const SideBarData = [
             title: "Utilities",
             children: [
               {
+                title:"Update Purchase Bill no./Date",
+                link:"/purchase/update-purchase-bill-no"
+              },
+              {
                 title: "Update Billing/Shipping",
-                link: "/sales/updatebilling",
+                link: "/purchase/update-billing",
               },
               {
                 title: "Update Transport",
-                link: "/sales/transport-report",
+                link: "/purchase/update-transport",
               },
               {
                 title: "Update Optional Fields",
-                link: "/sales/optional-field",
+                link: "/purchase/update-optionalfield",
               },
             ],
           },
         ],
-      },
-
-      {
-        title: "Contra",
-        icon: "ri-arrow-left-right-line",
-        link: "/vouchers/contra",
       },
     ],
   },
