@@ -319,39 +319,46 @@ export const SideBarData = [
   },
 
   {
-    section: "INVENTORY",
+    section: "VOUCHERS",
     items: [
       {
-        title: "Stock",
-        icon: "ri-stack-line",
+        title: "Party",
+        icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Current Stock",
-            link: "/inventory/stock",
+            title: "Customers",
+            link: "/party/customer",
           },
           {
-            title: "Stock Summary",
-            link: "/inventory/summary",
+            title: "Suppliers",
+            link: "/party/suppliers",
+          },
+          {
+            title: "Utilities",
+            children: [
+              {
+                title:"Create Multiple(GSTIN)",
+                link:"/party/customer"
+              },
+              {
+                title: "Create Multiple(Excel)",
+                link: "/party/customer",
+              },
+              {
+                title: "op Bill References",
+                link: "/party/customer",
+              },
+              {
+                title: "Deactivate Masters",
+                link: "/party/customer",
+              },
+               {
+                title: "Query on GSTIN",
+                link: "/party/customer",
+              },
+            ],
           },
         ],
-      },
-
-      {
-        title: "Stock Journal",
-        icon: "ri-file-list-3-line",
-        link: "/inventory/stock-journal",
-      },
-
-      {
-        title: "Material Issue",
-        icon: "ri-arrow-up-circle-line",
-        link: "/inventory/material-issue",
-      },
-
-      {
-        title: "Material Receive",
-        icon: "ri-arrow-down-circle-line",
-        link: "/inventory/material-receive",
       },
     ],
   },
