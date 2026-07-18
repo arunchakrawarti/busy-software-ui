@@ -1,72 +1,118 @@
-"use client";
-import Input from "@/components/common/Input";
+import Button from '@/components/common/Button';
+import Input from '@/components/common/Input';
+import React from 'react';
 
-const CreateGSTIN = () => {
+export default function CreateGSTIN() {
   return (
-    <div className="mt-5 space-y-5">
-      <div className="rounded-xl border border-slate-200 bg-white p-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+    <div className="p-6 bg-[#f8f9fa] min-h-screen text-sm font-sans">
+      
+      <div className="bg-white border border-gray-200 rounded-sm shadow-sm p-6 mb-6">
+        <h2 className="text-base font-bold text-gray-700 mb-6 uppercase tracking-wider border-b pb-2">
+          Master Details
+        </h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
           <Input
-            label="CASH"
-            type="select"
-            defaultValue="Cash"
+            label="GSTIN"
+            type="text"
+            defaultValue="Df"
             labelClass="text-sm font-bold uppercase text-[#333]"
-            options={[
-              { label: "Cash", value: "Cash" },
-              { label: "Customer A", value: "Customer A" },
-              { label: "Customer B", value: "Customer B" },
-            ]}
+            placeholder="Enter GSTIN"
           />
 
           <Input
-            label="PURCHASE TYPE"
+            label="Party Name"
+            type="text"
+            defaultValue=""
+            labelClass="text-sm font-bold uppercase text-[#333]"
+            placeholder="Enter Party Name"
+          />
+
+          <Input
+            label="Parent Group"
             type="select"
-            defaultValue="Central-40%"
+            defaultValue="Expenses (Direct/Mfg.)"
             labelClass="text-sm font-bold uppercase text-[#333]"
             options={[
+              { label: "Expenses (Direct/Mfg.)", value: "Expenses (Direct/Mfg.)" },
               { label: "Central-40%", value: "Central-40%" },
               { label: "Central-18%", value: "Central-18%" },
               { label: "Local-12%", value: "Local-12%" },
             ]}
           />
+
+          <Input
+            label="Type of Dealer"
+            type="select"
+            defaultValue="Registered"
+            labelClass="text-sm font-bold uppercase text-[#333]"
+            options={[
+              { label: "Registered", value: "Registered" },
+              { label: "Unregistered", value: "Unregistered" },
+              { label: "Composition", value: "Composition" },
+            ]}
+          />
+
+          <Input
+            label="Address 1"
+            type="text"
+            defaultValue="Gvhj"
+            labelClass="text-sm font-bold uppercase text-[#333]"
+            placeholder="Enter Address Line 1"
+          />
+
+          <Input
+            label="Address 2"
+            type="text"
+            defaultValue=""
+            labelClass="text-sm font-bold uppercase text-[#333]"
+            placeholder="Enter Address Line 2"
+          />
+
         </div>
       </div>
-      <div className="grid grid-cols-7 gap-3">
+
+      <div className="mb-8 max-w-xs">
         <Input
-          label="ITC ELIGIBILITY"
+          label="Parent Group for New Master"
           type="select"
-          defaultValue="Bjnj"
+          defaultValue=""
+          labelClass="text-sm font-bold uppercase text-[#333]"
           options={[
-            { label: "Bjnj", value: "Bjnj" },
-            { label: "Ring", value: "Ring" },
-            { label: "Chain", value: "Chain" },
-            { label: "Necklace", value: "Necklace" },
+            { label: "Expenses (Direct/Mfg.)", value: "Expenses (Direct/Mfg.)" },
+            { label: "Central-40%", value: "Central-40%" },
+            { label: "Central-18%", value: "Central-18%" },
+            { label: "Local-12%", value: "Local-12%" },
           ]}
         />
-
-        <Input label="QTY." defaultValue="56.00" />
-
-        <Input
-          label="UNIT"
-          type="select"
-          defaultValue="Gms."
-          options={[
-            { label: "Gms.", value: "Gms." },
-            { label: "Kg", value: "Kg" },
-            { label: "Pcs", value: "Pcs" },
-          ]}
-        />
-
-        <Input label="PRICE" defaultValue="4655.00" />
-
-        <Input label="DISCOUNT" defaultValue="0.00" />
-
-        <Input label="TOTAL DISCOUNT" defaultValue="0.00" />
-
-        <Input label="AMOUNT" defaultValue="2,60,680.00" />
       </div>
+
+      <hr className="border-gray-200 mb-6" />
+
+      <div className="flex justify-between items-center">
+        <div className="flex gap-3">
+          <Button variant='outline'>
+            Add Rows
+          </Button>
+          <Button variant='outline'>
+            Delete Rows
+          </Button>
+          <Button variant='outline'>
+            Clear All
+          </Button>
+        </div>
+
+        <div className="flex gap-3">
+          <Button variant='outline'>
+            Validate GSTIN
+          </Button>
+          <Button variant='secondary'>
+            Save <span>&rarr;</span>
+          </Button>
+        </div>
+      </div>
+
     </div>
   );
-};
-
-export default CreateGSTIN;
+}

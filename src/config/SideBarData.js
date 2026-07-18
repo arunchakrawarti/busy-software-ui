@@ -129,7 +129,7 @@ export const SideBarData = [
             children: [
               {
                 title:"Create Multiple(GSTIN)",
-                link:"/party/customer"
+                link:"/party/utilities-gstin"
               },
               {
                 title: "Create Multiple(Excel)",
