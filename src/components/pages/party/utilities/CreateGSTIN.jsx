@@ -4,9 +4,9 @@ import React from 'react';
 
 export default function CreateGSTIN() {
   return (
-    <div className="p-6 bg-[#f8f9fa] min-h-screen text-sm font-sans">
+    <div className='bg-white'>
       
-      <div className="bg-white border border-gray-200 rounded-sm shadow-sm p-6 mb-6">
+      <div className="bg-white border border-gray-200 rounded-sm  p-6 mb-6">
         <h2 className="text-base font-bold text-gray-700 mb-6 uppercase tracking-wider border-b pb-2">
           Master Details
         </h2>
@@ -73,7 +73,7 @@ export default function CreateGSTIN() {
         </div>
       </div>
 
-      <div className="mb-8 max-w-xs">
+      <div className=" p-4">
         <Input
           label="Parent Group for New Master"
           type="select"
@@ -87,10 +87,7 @@ export default function CreateGSTIN() {
           ]}
         />
       </div>
-
-      <hr className="border-gray-200 mb-6" />
-
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between p-4 items-center">
         <div className="flex gap-3">
           <Button variant='outline'>
             Add Rows
