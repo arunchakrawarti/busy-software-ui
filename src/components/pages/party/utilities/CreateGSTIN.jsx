@@ -5,7 +5,7 @@ import React from "react";
 export default function CreateGSTIN() {
   return (
     <div className="bg-white">
-      <div className="bg-white border border-gray-200 rounded-sm  p-6 mb-6">
+      <div className="bg-white p-6 mb-6">
         <h2 className="text-base font-bold text-gray-700 mb-6 uppercase tracking-wider border-b pb-2">
           Master Details
         </h2>
