@@ -70,6 +70,20 @@ export default function CreateGSTIN() {
             labelClass="text-sm font-bold uppercase text-[#333]"
             placeholder="Enter Address Line 2"
           />
+           <Input
+            label="Address 3"
+            type="text"
+            defaultValue=""
+            labelClass="text-sm font-bold uppercase text-[#333]"
+            placeholder="Enter Address Line 3"
+          />
+           <Input
+            label="Address 4"
+            type="text"
+            defaultValue=""
+            labelClass="text-sm font-bold uppercase text-[#333]"
+            placeholder="Enter Address Line 4"
+          />
         </div>
       </div>
 
