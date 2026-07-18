@@ -246,7 +246,7 @@ export const SideBarData = [
         icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Bill",
+            title: "Invoice",
             link: "/sales/invoice",
           },
           {
@@ -272,12 +272,6 @@ export const SideBarData = [
           },
         ],
       },
-
-      {
-        title: "Contra",
-        icon: "ri-arrow-left-right-line",
-        link: "/vouchers/contra",
-      },
     ],
   },
 
@@ -289,12 +283,12 @@ export const SideBarData = [
         icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Invoice",
+            title: "Bill",
             link: "/purchase/bill",
           },
           {
             title: "Return/Cr.Note",
-            link: "/sales/return-note",
+            link: "/purchase/return-denote",
           },
           {
             title: "Utilities",
