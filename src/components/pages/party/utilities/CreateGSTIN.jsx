@@ -1,18 +1,16 @@
-import Button from '@/components/common/Button';
-import Input from '@/components/common/Input';
-import React from 'react';
+import Button from "@/components/common/Button";
+import Input from "@/components/common/Input";
+import React from "react";
 
 export default function CreateGSTIN() {
   return (
-    <div className='bg-white'>
-      
+    <div className="bg-white">
       <div className="bg-white border border-gray-200 rounded-sm  p-6 mb-6">
         <h2 className="text-base font-bold text-gray-700 mb-6 uppercase tracking-wider border-b pb-2">
           Master Details
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          
           <Input
             label="GSTIN"
             type="text"
@@ -35,7 +33,10 @@ export default function CreateGSTIN() {
             defaultValue="Expenses (Direct/Mfg.)"
             labelClass="text-sm font-bold uppercase text-[#333]"
             options={[
-              { label: "Expenses (Direct/Mfg.)", value: "Expenses (Direct/Mfg.)" },
+              {
+                label: "Expenses (Direct/Mfg.)",
+                value: "Expenses (Direct/Mfg.)",
+              },
               { label: "Central-40%", value: "Central-40%" },
               { label: "Central-18%", value: "Central-18%" },
               { label: "Local-12%", value: "Local-12%" },
@@ -69,7 +70,6 @@ export default function CreateGSTIN() {
             labelClass="text-sm font-bold uppercase text-[#333]"
             placeholder="Enter Address Line 2"
           />
-
         </div>
       </div>
 
@@ -80,36 +80,38 @@ export default function CreateGSTIN() {
           defaultValue=""
           labelClass="text-sm font-bold uppercase text-[#333]"
           options={[
-            { label: "Expenses (Direct/Mfg.)", value: "Expenses (Direct/Mfg.)" },
+            {
+              label: "Expenses (Direct/Mfg.)",
+              value: "Expenses (Direct/Mfg.)",
+            },
             { label: "Central-40%", value: "Central-40%" },
             { label: "Central-18%", value: "Central-18%" },
             { label: "Local-12%", value: "Local-12%" },
           ]}
         />
       </div>
-      <div className="flex justify-between p-4 items-center">
-        <div className="flex gap-3">
-          <Button variant='outline'>
+      <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="grid grid-cols-1 sm:flex gap-3">
+          <Button className="w-full sm:w-auto" variant="outline">
             Add Rows
           </Button>
-          <Button variant='outline'>
+          <Button className="w-full sm:w-auto" variant="outline">
             Delete Rows
           </Button>
-          <Button variant='outline'>
+          <Button className="w-full sm:w-auto" variant="outline">
             Clear All
           </Button>
         </div>
 
-        <div className="flex gap-3">
-          <Button variant='outline'>
+        <div className="grid grid-cols-1 sm:flex gap-3">
+          <Button className="w-full sm:w-auto" variant="outline">
             Validate GSTIN
           </Button>
-          <Button variant='secondary'>
+          <Button className="w-full sm:w-auto" variant="secondary">
             Save <span>&rarr;</span>
           </Button>
         </div>
       </div>
-
     </div>
   );
 }
