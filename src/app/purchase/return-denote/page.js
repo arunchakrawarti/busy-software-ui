@@ -1,12 +1,12 @@
-import MainBill from '@/components/pages/purchase/bill/Index'
+import MainNote from '@/components/pages/purchase/return-drnote/Index'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <MainLayout title="Bill">
-        <MainBill/>
+      <MainLayout title="Purchase Returns">
+        <MainNote/>
       </MainLayout>
     </div>
   )
