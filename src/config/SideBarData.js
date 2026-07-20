@@ -137,7 +137,7 @@ export const SideBarData = [
               },
               {
                 title: "Op Bill References",
-                link: "/party/customer",
+                link: "/party/bill-reference",
               },
               {
                 title: "Deactivate Masters",
