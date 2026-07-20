@@ -1,6 +1,7 @@
 "use client";
 
 import BasicTable from "@/components/common/BasicTable";
+import Button from "@/components/common/Button";
 import Input from "@/components/common/Input";
 import Switch from "@/components/common/Switch";
 import React from "react";
@@ -166,14 +167,11 @@ export default function Billreference() {
 
       </div>
 
-      {/* 6. BOTTOM ACTION FOOTER IMPORT BUTTON */}
       <div className="flex justify-end mt-12">
-        <button
-          type="button"
-          className="flex items-center gap-2 bg-[#007bff] hover:bg-[#0069d9] text-white px-6 py-2.5 rounded-lg shadow font-medium tracking-wide text-sm active:scale-95 transition-all"
+        <Button variant="secondary"
         >
           Import <span>➔</span>
-        </button>
+        </Button>
       </div>
 
     </div>
