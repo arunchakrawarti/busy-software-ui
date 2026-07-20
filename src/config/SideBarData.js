@@ -186,7 +186,7 @@ export const SideBarData = [
               },
               {
                 title: "Update Item Tax Category/HSN Code",
-                link: "/items/query-hsn",
+                link: "/items/update-category",
               },
             ],
           },
