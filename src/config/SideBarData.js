@@ -173,8 +173,8 @@ export const SideBarData = [
                 link: "/items/create-excel",
               },
               {
-                title: "Op Bill References",
-                link: "/party/bill-reference",
+                title: "Tax Category",
+                link: "/items/tax-category",
               },
               {
                 title: "Deactivate Masters",
