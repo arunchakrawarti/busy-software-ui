@@ -51,13 +51,11 @@ export default function Billreference() {
               />
             </div>
 
-            {/* Middle Action Buttons */}
             <div className="lg:col-span-1 flex flex-row lg:flex-col justify-center gap-3 my-2 lg:my-0">
               <button type="button" className="flex items-center justify-center border border-blue-200 text-blue-500 h-9 w-9 bg-white rounded hover:bg-slate-50 active:scale-95 transition-all text-xs font-semibold rotate-90 lg:rotate-0">⇒</button>
               <button type="button" className="flex items-center justify-center border border-blue-200 text-blue-500 h-9 w-9 bg-white rounded hover:bg-slate-50 active:scale-95 transition-all text-xs font-semibold rotate-90 lg:rotate-0">⇐</button>
             </div>
 
-            {/* Right Table Preview */}
             <div className="lg:col-span-6 overflow-hidden w-full bg-white border border-slate-200 rounded-lg">
               <BasicTable 
                 columns={columns} 
@@ -72,7 +70,6 @@ export default function Billreference() {
           </div>
         </div>
 
-        {/* 3. SPECIFY DEFAULT VALUES FOR ADDITION OF NEW MASTERS */}
         <div className="mb-6">
           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-4">
             SPECIFY DEFAULT VALUES FOR ADDITION OF NEW MASTERS
@@ -92,10 +89,8 @@ export default function Billreference() {
           </div>
         </div>
 
-        {/* 4. EXCEL PATH AND ROW CONFIGURATION SETTINGS */}
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-end mb-6 pt-4 border-t border-slate-100">
           
-          {/* File Path Selection */}
           <div className="xl:col-span-6 w-full">
             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
               <span className="text-xs font-bold uppercase tracking-wider text-slate-700 sm:w-32 flex-shrink-0">
@@ -114,7 +109,6 @@ export default function Billreference() {
             </div>
           </div>
 
-          {/* Row Inputs Configuration */}
           <div className="xl:col-span-6 grid grid-cols-3 gap-4 w-full">
             <div className="flex flex-col sm:flex-row sm:items-center justify-end gap-2 sm:gap-4 w-full">
               <label className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-slate-700 text-right sm:w-24 leading-tight">
@@ -146,7 +140,6 @@ export default function Billreference() {
 
         </div>
 
-        {/* 5. SWITCH ACCORDING TO IMAGE STYLE */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mt-6 pt-4 border-t border-slate-100">
           <div className="flex flex-col gap-1">
             <span className="text-xs font-bold uppercase tracking-wider text-slate-700">
