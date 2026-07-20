@@ -5,7 +5,6 @@ import Switch from "@/components/common/Switch";
 import React from "react";
 
 export default function TaxCategory() {
-  // Table columns exactly matching the image
   const columns = [
     { label: "#", key: "index" },
     { label: "W.E.F", key: "wef" },
@@ -19,7 +18,6 @@ export default function TaxCategory() {
     { label: "TAX TYPE", key: "taxTypeTable2" },
   ];
 
-  // 2 Real Dummy Rows + Empty Rows for Grid Look
   const tableData = [
     {
       index: 1,
