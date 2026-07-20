@@ -133,7 +133,7 @@ export const SideBarData = [
               },
               {
                 title: "Create Multiple(Excel)",
-                link: "/party/customer",
+                link: "/party/create-excel",
               },
               {
                 title: "Op Bill References",
