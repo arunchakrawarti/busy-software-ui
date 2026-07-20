@@ -154,42 +154,47 @@ export const SideBarData = [
     ],
   },
 
-  {
-    section: "REPORTS",
+ {
+    section: "VOUCHERS",
     items: [
       {
-        title: "Accounts Reports",
-        icon: "ri-file-chart-line",
+        title: "Items",
+        icon: "ri-shopping-cart-2-line",
         children: [
           {
-            title: "Ledger",
-            link: "/reports/ledger",
+            title: "Item(Good/Services)",
+            link: "/items/item-goodservice",
           },
           {
-            title: "Trial Balance",
-            link: "/reports/trial-balance",
+            title: "Suppliers",
+            link: "/party/suppliers",
           },
           {
-            title: "Profit & Loss",
-            link: "/reports/profit-loss",
-          },
-          {
-            title: "Balance Sheet",
-            link: "/reports/balance-sheet",
+            title: "Utilities",
+            children: [
+              {
+                title:"Create Multiple(GSTIN)",
+                link:"/party/utilities-gstin"
+              },
+              {
+                title: "Create Multiple(Excel)",
+                link: "/party/create-excel",
+              },
+              {
+                title: "Op Bill References",
+                link: "/party/bill-reference",
+              },
+              {
+                title: "Deactivate Masters",
+                link: "/party/deactivate-master",
+              },
+              {
+                title: "Query on GSTIN",
+                link: "/party/query-gstin",
+              },
+            ],
           },
         ],
-      },
-
-      {
-        title: "GST Reports",
-        icon: "ri-percent-line",
-        link: "/reports/gst",
-      },
-
-      {
-        title: "Stock Reports",
-        icon: "ri-bar-chart-box-line",
-        link: "/reports/stock",
       },
     ],
   },
