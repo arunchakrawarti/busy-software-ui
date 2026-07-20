@@ -181,8 +181,8 @@ export const SideBarData = [
                 link: "/items/deactivate-master",
               },
               {
-                title: "Query on GSTIN",
-                link: "/party/query-gstin",
+                title: "Query on HSN/SAC Code",
+                link: "/items/query-hsn",
               },
             ],
           },
