@@ -178,7 +178,7 @@ export const SideBarData = [
               },
               {
                 title: "Deactivate Masters",
-                link: "/party/deactivate-master",
+                link: "/items/deactivate-master",
               },
               {
                 title: "Query on GSTIN",
