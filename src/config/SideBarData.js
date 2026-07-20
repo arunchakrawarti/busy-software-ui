@@ -145,7 +145,7 @@ export const SideBarData = [
               },
               {
                 title: "Query on GSTIN",
-                link: "/party/customer",
+                link: "/party/query-gstin",
               },
             ],
           },
