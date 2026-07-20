@@ -166,19 +166,11 @@ export const SideBarData = [
             link: "/items/item-goodservice",
           },
           {
-            title: "Suppliers",
-            link: "/party/suppliers",
-          },
-          {
             title: "Utilities",
             children: [
               {
-                title:"Create Multiple(GSTIN)",
-                link:"/party/utilities-gstin"
-              },
-              {
                 title: "Create Multiple(Excel)",
-                link: "/party/create-excel",
+                link: "/items/create-excel",
               },
               {
                 title: "Op Bill References",
