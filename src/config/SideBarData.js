@@ -238,7 +238,7 @@ export const SideBarData = [
               },
               {
                 title: "Optional Field",
-                link: "/items/deactivate-master",
+                link: "/payment-banking/optional-field",
               }
             ],
           },
