@@ -207,6 +207,10 @@ export const SideBarData = [
             link: "/payment-banking/payment-reciept",
           },
           {
+            title: "Payment Out (Payment)",
+            link: "/payment-banking/payment-out",
+          },
+          {
             title: "Utilities",
             children: [
               {
