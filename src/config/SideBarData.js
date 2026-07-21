@@ -229,25 +229,17 @@ export const SideBarData = [
             title: "Utilities",
             children: [
               {
-                title: "Create Multiple(Excel)",
+                title: "Clear Bill ref",
                 link: "/items/create-excel",
               },
               {
-                title: "Tax Category",
+                title: "Auto Adjust Bill ref",
                 link: "/items/tax-category",
               },
               {
-                title: "Deactivate Masters",
+                title: "Optional Field",
                 link: "/items/deactivate-master",
-              },
-              {
-                title: "Query on HSN/SAC Code",
-                link: "/items/query-hsn",
-              },
-              {
-                title: "Update Item Tax Category/HSN Code",
-                link: "/items/update-category",
-              },
+              }
             ],
           },
         ],
