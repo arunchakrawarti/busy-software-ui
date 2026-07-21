@@ -211,6 +211,21 @@ export const SideBarData = [
             link: "/payment-banking/payment-out",
           },
           {
+            title: "Smart Bank Reconcilation",
+            children: [
+              
+              {
+            title: "Import & Setup",
+            children: [
+              {
+                title: "Import Bank Statement",
+                link: "/payment-banking/smart-bankreconcilation",
+              },
+            ],
+          },
+            ],
+          },
+           {
             title: "Utilities",
             children: [
               {
