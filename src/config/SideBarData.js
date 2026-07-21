@@ -234,7 +234,7 @@ export const SideBarData = [
               },
               {
                 title: "Auto Adjust Bill ref",
-                link: "/items/tax-category",
+                link: "/payment-banking/auto-adjust",
               },
               {
                 title: "Optional Field",
