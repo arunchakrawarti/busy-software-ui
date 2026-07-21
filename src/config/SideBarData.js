@@ -259,7 +259,7 @@ export const SideBarData = [
             children: [
               {
                 title: "IFF(Invoice Furnishing Facility)",
-                link: "/items/create-excel",
+                link: "/gst/return/iff-invoice",
               },
               {
                 title: "GSTR 1",
