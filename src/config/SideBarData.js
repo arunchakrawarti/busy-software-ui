@@ -230,7 +230,7 @@ export const SideBarData = [
             children: [
               {
                 title: "Clear Bill ref",
-                link: "/items/create-excel",
+                link: "/payment-banking/clear-bill",
               },
               {
                 title: "Auto Adjust Bill ref",
