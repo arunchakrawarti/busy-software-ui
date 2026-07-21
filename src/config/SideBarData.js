@@ -248,6 +248,60 @@ export const SideBarData = [
   },
 
   {
+    section: "VOUCHERS",
+    items: [
+      {
+        title: "GST",
+        icon: "ri-shopping-cart-2-line",
+        children: [
+          {
+            title: "Return",
+            children: [
+              {
+                title: "IFF(Invoice Furnishing Facility)",
+                link: "/items/create-excel",
+              },
+              {
+                title: "GSTR 1",
+                link: "/items/tax-category",
+              },
+              {
+                title: "GSTR 3B",
+                link: "/items/deactivate-master",
+              },
+              {
+                title: "GSTR 6",
+                link: "/items/query-hsn",
+              },
+            ],
+          },
+           {
+            title: "Refund Statement",
+            children: [
+              {
+                title: "Purchase Rigister (For Offline Reconcilation)",
+                link: "/items/create-excel",
+              },
+              {
+                title: "GSTR 1",
+                link: "/items/tax-category",
+              },
+              {
+                title: "GSTR 3B",
+                link: "/items/deactivate-master",
+              },
+              {
+                title: "GSTR 6",
+                link: "/items/query-hsn",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  {
     section: "ADMINISTRATION",
     items: [
       {
