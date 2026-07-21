@@ -196,6 +196,47 @@ export const SideBarData = [
   },
 
   {
+    section: "VOUCHERS",
+    items: [
+      {
+        title: "Payments and Banking",
+        icon: "ri-shopping-cart-2-line",
+        children: [
+          {
+            title: "Payment in (Reciept)",
+            link: "/payment-banking/payment-reciept",
+          },
+          {
+            title: "Utilities",
+            children: [
+              {
+                title: "Create Multiple(Excel)",
+                link: "/items/create-excel",
+              },
+              {
+                title: "Tax Category",
+                link: "/items/tax-category",
+              },
+              {
+                title: "Deactivate Masters",
+                link: "/items/deactivate-master",
+              },
+              {
+                title: "Query on HSN/SAC Code",
+                link: "/items/query-hsn",
+              },
+              {
+                title: "Update Item Tax Category/HSN Code",
+                link: "/items/update-category",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  {
     section: "ADMINISTRATION",
     items: [
       {
