@@ -291,7 +291,7 @@ export const SideBarData = [
               },
               {
                 title: "05B",
-                link: "/gst/return/o5b",
+                link: "/gst/return/05b",
               }
             ],
           },
