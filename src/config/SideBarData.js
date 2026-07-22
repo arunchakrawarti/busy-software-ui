@@ -271,7 +271,7 @@ export const SideBarData = [
               },
               {
                 title: "GSTR 6",
-                link: "/items/query-hsn",
+                link: "/gst/return/gstr-6",
               },
             ],
           },
