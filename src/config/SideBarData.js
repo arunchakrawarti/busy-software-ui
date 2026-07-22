@@ -296,24 +296,24 @@ export const SideBarData = [
             ],
           },
           {
-                title: "Purchase Register(For Offline Reconcillation)",
-                link: "/gst/return/purchase-register",
+            title: "Purchase Register(For Offline Reconcillation)",
+            link: "/gst/return/purchase-register",
               },
             ],
           },
            {
-            title: "Refund Statement",
+            title: "GST summaries",
             children: [
               {
-                title: "Purchase Rigister (For Offline Reconcilation)",
-                link: "/items/create-excel",
+                title: "GST Summary",
+                link: "/gst/gst-summeries/gst-summary",
               },
               {
-                title: "GSTR 1",
+                title: "Sale Type Summaries",
                 link: "/items/tax-category",
               },
               {
-                title: "GSTR 3B",
+                title: "Purchase Type Summaries",
                 link: "/items/deactivate-master",
               },
               {
