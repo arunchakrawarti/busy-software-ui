@@ -273,6 +273,10 @@ export const SideBarData = [
                 title: "GSTR 6",
                 link: "/gst/return/gstr-6",
               },
+              {
+                title: "Purchase Register(For Offline Reconcillation)",
+                link: "/gst/return/purchase-register",
+              },
             ],
           },
            {
