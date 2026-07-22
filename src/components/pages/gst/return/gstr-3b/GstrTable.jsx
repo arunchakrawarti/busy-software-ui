@@ -91,32 +91,25 @@ export default function GstrTable() {
         ),
     },
   ];
-
   return (
     <div className="bg-slate-100 mt-5">
       <div className="bg-white rounded-xl shadow-md p-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
           <Input label="GSTIN" placeholder="33AAACI1607G2Z5" />
-
           <Input label="Legal Name" placeholder="INDIAN BANK" />
-
           <Input label="Return Period" placeholder="July 2026" />
         </div>
-
         <BasicTable
           columns={columns}
           data={data}
           bordered
           pagination={false}
-          wrapperClassName="rounded-lg border"
+          wrapperClassName="rounded-lg"
         />
-
         <div className="flex justify-end gap-3 mt-6">
           <Button variant="outline">Reset</Button>
-
           <Button variant="outline">Validate</Button>
-
-          <Button>Save</Button>
+          <Button variant="outline">Save</Button>
         </div>
       </div>
     </div>
