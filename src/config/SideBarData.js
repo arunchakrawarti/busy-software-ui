@@ -283,15 +283,15 @@ export const SideBarData = [
               },
               {
                 title: "S04",
-                link: "/gst/return/gstr-1",
+                link: "/gst/return/so4",
               },
               {
                 title: "S05",
-                link: "/gst/return/gstr-3b",
+                link: "/gst/return/so5",
               },
               {
                 title: "05B",
-                link: "/gst/return/gstr-3b",
+                link: "/gst/return/o5b",
               }
             ],
           },
