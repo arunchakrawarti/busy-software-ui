@@ -263,11 +263,11 @@ export const SideBarData = [
               },
               {
                 title: "GSTR 1",
-                link: "/items/tax-category",
+                link: "/gst/return/gstr-1",
               },
               {
                 title: "GSTR 3B",
-                link: "/items/deactivate-master",
+                link: "/gst/return/gstr-3b",
               },
               {
                 title: "GSTR 6",
