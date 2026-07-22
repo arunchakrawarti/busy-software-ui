@@ -93,7 +93,7 @@ export default function GstrTable() {
   ];
 
   return (
-    <div className="p-6 bg-slate-100 min-h-screen">
+    <div className="bg-slate-100 mt-5">
       <div className="bg-white rounded-xl shadow-md p-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
           <Input label="GSTIN" placeholder="33AAACI1607G2Z5" />
