@@ -301,7 +301,7 @@ export default function SaleSummary() {
   ];
 
   return (
-    <div className="w-full flex flex-col min-h-screen bg-slate-100/60 p-2 sm:p-4 font-sans text-slate-700 antialiased">
+    <div className="w-full flex flex-col min-h-screen bg-slate-100/60  font-sans text-slate-700 antialiased">
       <div className="w-full flex flex-col bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
         
         <div className="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-3 px-4 sm:px-6 py-3 border-b border-slate-200 bg-white">
