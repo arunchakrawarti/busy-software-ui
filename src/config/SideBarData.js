@@ -310,15 +310,11 @@ export const SideBarData = [
               },
               {
                 title: "Sale Type Summaries",
-                link: "/items/tax-category",
+                link: "/gst/gst-summeries/sale-summary",
               },
               {
                 title: "Purchase Type Summaries",
                 link: "/items/deactivate-master",
-              },
-              {
-                title: "GSTR 6",
-                link: "/items/query-hsn",
               },
             ],
           },
