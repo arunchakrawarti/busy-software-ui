@@ -176,47 +176,17 @@ export default function SaleRegister() {
   const [dontRefresh, setDontRefresh] = useState(false);
 
 
- const columns = [
-  {
-    key: "srNo",
-    value: "#",
-  },
-  {
-    key: "bill no",
-    value: "BILL NO.",
-  },
-  {
-    key: "date",
-    value: "DATE",
-  },
-  {
-    key: "name & address of dealer",
-    value: "NAME & ADDRESS OF DEALER",
-  },
-  {
-    key: "gstin",
-    value: "GSTIN",
-  },
-  {
-    key: "sale type",
-    value: "SALE TYPE",
-  },
-  {
-    key: "bill amount",
-    value: "BILL AMOUNT",
-  },
-  {
-    key: "igst txbl amt@ 40%",
-    value: "IGST TXBL AMT@ 40%",
-  },
-  {
-    key: "igst tax amt@ 40%",
-    value: "IGST TAX AMT@ 40%",
-  },
-  {
-    key: "other amount",
-    value: "OTHER AMOUNT",
-  },
+const columns = [
+  { key: "srNo", label: "#", value: "#" },
+  { key: "bill no", label: "BILL NO.", value: "BILL NO." },
+  { key: "date", label: "DATE", value: "DATE" },
+  { key: "name & address of dealer", label: "NAME & ADDRESS OF DEALER", value: "NAME & ADDRESS OF DEALER" },
+  { key: "gstin", label: "GSTIN", value: "GSTIN" },
+  { key: "sale type", label: "SALE TYPE", value: "SALE TYPE" },
+  { key: "bill amount", label: "BILL AMOUNT", value: "BILL AMOUNT" },
+  { key: "igst txbl amt@ 40%", label: "IGST TXBL AMT@ 40%", value: "IGST TXBL AMT@ 40%" },
+  { key: "igst tax amt@ 40%", label: "IGST TAX AMT@ 40%", value: "IGST TAX AMT@ 40%" },
+  { key: "other amount", label: "OTHER AMOUNT", value: "OTHER AMOUNT" },
 ];
 
   return (
