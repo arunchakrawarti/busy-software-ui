@@ -331,7 +331,7 @@ export const SideBarData = [
               },
               {
                 title: "Supply Outworld Register",
-                link: "/gst/gst-summeries/purchase-summary",
+                link: "/gst/register/supply-outword",
               },
               {
                 title: "GSTR-2A Register",
