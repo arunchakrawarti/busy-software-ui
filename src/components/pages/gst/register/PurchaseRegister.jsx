@@ -27,7 +27,6 @@ export default function PurchaseRegister() {
           <Search className="w-4 h-4 sm:w-[18px] sm:h-[18px]" />
         </button>
         
-        {/* Analytics/Chart Icon */}
         <button 
           type="button" 
           className="p-2 text-slate-400 hover:text-slate-600 transition-colors"
@@ -36,7 +35,6 @@ export default function PurchaseRegister() {
           <BarChart2 className="w-4 h-4 sm:w-[18px] sm:h-[18px]" />
         </button>
 
-        {/* Alignment Icon */}
         <button 
           type="button" 
           className="p-2 text-slate-400 hover:text-slate-600 transition-colors"
