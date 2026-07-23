@@ -334,6 +334,10 @@ export const SideBarData = [
                 link: "/gst/register/supply-outword",
               },
               {
+                title: "Supply Inworld Register",
+                link: "/gst/register/supply-inword",
+              },
+              {
                 title: "GSTR-2A Register",
                 link: "/gst/gst-summeries/purchase-summary",
               },
