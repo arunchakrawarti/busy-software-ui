@@ -318,6 +318,35 @@ export const SideBarData = [
               },
             ],
           },
+           {
+            title: "Register",
+            children: [
+              {
+                title: "Sales Register",
+                link: "/gst/register/sale-register",
+              },
+              {
+                title: "Purchase Register",
+                link: "/gst/gst-summeries/sale-summary",
+              },
+              {
+                title: "Supply Outworld Register",
+                link: "/gst/gst-summeries/purchase-summary",
+              },
+              {
+                title: "GSTR-2A Register",
+                link: "/gst/gst-summeries/purchase-summary",
+              },
+              {
+                title: "GSTR-3A Register",
+                link: "/gst/gst-summeries/purchase-summary",
+              },
+              {
+                title: "TDS & TDC Credit Recieved",
+                link: "/gst/gst-summeries/purchase-summary",
+              },
+            ],
+          },
         ],
       },
     ],
