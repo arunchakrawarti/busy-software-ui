@@ -314,7 +314,7 @@ export const SideBarData = [
               },
               {
                 title: "Purchase Type Summaries",
-                link: "/items/deactivate-master",
+                link: "/gst/gst-summeries/purchase-summary",
               },
             ],
           },
