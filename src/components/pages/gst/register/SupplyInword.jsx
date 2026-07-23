@@ -52,7 +52,6 @@ export default function SupplyInword() {
             </div>
 
             <div className="flex items-center gap-2">
-              {/* Date Range Picker Dropdown */}
               <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 border border-slate-200 rounded-lg text-xs sm:text-sm text-slate-600 bg-white cursor-pointer hover:border-slate-300 transition-colors">
                 <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 shrink-0" />
                 <span className="whitespace-nowrap">01 Apr 2026 – 17 Jul 2026</span>

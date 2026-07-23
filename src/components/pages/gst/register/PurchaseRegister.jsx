@@ -18,7 +18,6 @@ export default function PurchaseRegister() {
       
       <div className="w-full flex items-center justify-end gap-3 px-4 sm:px-6 py-3 border-b border-slate-100 bg-white">
         
-        {/* Search Icon */}
         <button 
           type="button" 
           className="p-2 text-slate-400 hover:text-slate-600 transition-colors"
@@ -43,14 +42,12 @@ export default function PurchaseRegister() {
           <AlignLeft className="w-4 h-4 sm:w-[18px] sm:h-[18px]" />
         </button>
 
-        {/* Date Range Picker Dropdown */}
         <div className="flex items-center gap-2 px-3 py-1.5 border border-slate-200 rounded-md text-xs sm:text-sm text-slate-600 bg-white cursor-pointer hover:border-slate-300">
           <Calendar className="w-4 h-4 text-slate-400" />
           <span>01 Apr 2026 – 17 Jul 2026</span>
           <ChevronDown className="w-3.5 h-3.5 text-slate-400 ml-1" />
         </div>
 
-        {/* Menu Button */}
         <button 
           type="button" 
           className="p-1.5 text-slate-500 border border-slate-200 rounded-md hover:bg-slate-50 transition-colors"
@@ -59,7 +56,6 @@ export default function PurchaseRegister() {
           <Menu className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
-        {/* Filter Button */}
         <button 
           type="button" 
           className="p-1.5 text-slate-500 border border-slate-200 rounded-md hover:bg-slate-50 transition-colors"
