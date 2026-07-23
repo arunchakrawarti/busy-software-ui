@@ -327,7 +327,7 @@ export const SideBarData = [
               },
               {
                 title: "Purchase Register",
-                link: "/gst/gst-summeries/sale-summary",
+                link: "/gst/register/purchase-register",
               },
               {
                 title: "Supply Outworld Register",
