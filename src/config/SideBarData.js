@@ -406,7 +406,7 @@ export const SideBarData = [
               },
               {
                 title: "Electronic Credit Reversal & Reclaim Statement",
-                link: "/gst/audit-report/reconcile-account",
+                link: "/gst/gst-ledgers/electronic-credit",
               }
             ],
           },
