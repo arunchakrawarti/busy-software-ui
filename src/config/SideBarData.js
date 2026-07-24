@@ -367,8 +367,8 @@ export const SideBarData = [
                 link: "/gst/audit-report/invalidtax-rate",
               },
               {
-                title: "Supply Inworld Register",
-                link: "/gst/register/supply-inword",
+                title: "Reconcile Accounts & GST",
+                link: "/gst/audit-report/reconcile-account",
               },
               {
                 title: "GSTR-2A Register",
@@ -389,41 +389,5 @@ export const SideBarData = [
     ],
   },
 
-  {
-    section: "ADMINISTRATION",
-    items: [
-      {
-        title: "Users",
-        icon: "ri-user-settings-line",
-        children: [
-          {
-            title: "Users List",
-            link: "/administration/users",
-          },
-          {
-            title: "Roles & Permissions",
-            link: "/administration/roles",
-          },
-        ],
-      },
-
-      {
-        title: "Backup",
-        icon: "ri-download-cloud-2-line",
-        link: "/administration/backup",
-      },
-
-      {
-        title: "Restore",
-        icon: "ri-upload-cloud-2-line",
-        link: "/administration/restore",
-      },
-
-      {
-        title: "Settings",
-        icon: "ri-settings-3-line",
-        link: "/administration/settings",
-      },
-    ],
-  },
+ 
 ];
