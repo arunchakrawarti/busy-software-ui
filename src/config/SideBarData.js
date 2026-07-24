@@ -339,7 +339,7 @@ export const SideBarData = [
               },
               {
                 title: "GSTR-2A Register",
-                link: "/gst/gst-summeries/purchase-summary",
+                link: "/gst/register/gstr-2a",
               },
               {
                 title: "GSTR-3A Register",
