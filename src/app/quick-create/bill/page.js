@@ -5,7 +5,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <MainLayout title="Create Customer">
+      <MainLayout title="Create Bills">
         <Mainbill/>
       </MainLayout>
     </div>

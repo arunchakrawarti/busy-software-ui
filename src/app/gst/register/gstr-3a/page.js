@@ -1,12 +1,12 @@
-import ItemForm from '@/components/pages/quick-create/item/ItemForm'
+import GSTR3A from '@/components/pages/gst/register/GSTR3A'
 import MainLayout from '@/components/templates/MainLayout'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <MainLayout title="Create Items">
-        <ItemForm/>
+      <MainLayout>
+        <GSTR3A/>
       </MainLayout>
     </div>
   )
