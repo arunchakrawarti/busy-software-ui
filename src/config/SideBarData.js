@@ -347,7 +347,7 @@ export const SideBarData = [
               },
               {
                 title: "TDS & TDC Credit Recieved",
-                link: "/gst/gst-summeries/purchase-summary",
+                link: "/gst/register/tds-tcs-credit",
               },
             ],
           },
