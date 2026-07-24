@@ -371,8 +371,8 @@ export const SideBarData = [
                 link: "/gst/audit-report/reconcile-account",
               },
               {
-                title: "GSTR-2A Register",
-                link: "/gst/register/gstr-2a",
+                title: "Chnage in Item Tax Rate",
+                link: "/gst/audit-report/changetax-rate",
               },
               {
                 title: "GSTR-3A Register",
