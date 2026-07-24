@@ -55,7 +55,7 @@ export default function GstinMonthList() {
             <div className="hidden sm:block"></div>
 
             <div className="text-right">
-              <Button
+              <Button href="/gst/register/gst-settings"
                 variant="secondary"
                 className="w-full sm:w-auto min-w-[110px] justify-center gap-1.5 text-xs sm:text-sm py-1.5 sm:py-2"
               >
