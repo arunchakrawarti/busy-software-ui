@@ -402,7 +402,7 @@ export const SideBarData = [
               },
               {
                 title: "Electronic Liability Register",
-                link: "/gst/audit-report/invalidtax-rate",
+                link: "/gst/gst-ledgers/electronic-register",
               },
               {
                 title: "Electronic Credit Reversal & Reclaim Statement",
