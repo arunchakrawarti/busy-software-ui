@@ -389,6 +389,27 @@ export const SideBarData = [
           },
             ],
           },
+           {
+            title: "GST Leaders",
+            children: [
+              {
+                title: "Cash/Credit Ledger Live Balances",
+                link: "/gst/gst-ledgers/cash-ledgers",
+              },
+              {
+                title: "Electronic Cash/Credit Ledger",
+                link: "/gst/audit-report/comman-mistake",
+              },
+              {
+                title: "Electronic Liability Register",
+                link: "/gst/audit-report/invalidtax-rate",
+              },
+              {
+                title: "Electronic Credit Reversal & Reclaim Statement",
+                link: "/gst/audit-report/reconcile-account",
+              }
+            ],
+          },
         ],
       },
     ],
