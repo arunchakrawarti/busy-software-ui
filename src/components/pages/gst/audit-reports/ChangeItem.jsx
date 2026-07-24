@@ -16,7 +16,6 @@ export default function ChangeItem() {
   return (
     <div className="w-full">
       <div className="w-full flex flex-col sm:flex-row sm:items-center justify-end gap-3 px-4 sm:px-6 py-3 bg-white border border-slate-200 rounded-xl shadow-sm">
-
         <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-slate-500">
           <button
             type="button"
