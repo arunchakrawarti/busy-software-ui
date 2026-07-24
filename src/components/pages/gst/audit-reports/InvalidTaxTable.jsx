@@ -1,58 +1,83 @@
 "use client";
 import BasicTable from "@/components/common/BasicTable";
 
-// Naye Columns ke hisab se 4 Dummy Data Rows
+// Naye columns ke mutabiq 4 Dummy Data Rows
 const data = [
   {
     id: 1,
-    partyName: "Apex Logistics Pvt Ltd",
-    state: "Maharashtra",
-    gstin: "27AAAAA0000A1Z5",
-    invalidReason: "Format mismatch (Invalid State Code)",
+    date: "01-04-2024",
+    type: "Sales Invoice",
+    voucherNo: "INV-2024-001",
+    itemName: "Laptop Dell XPS 15",
+    itemIgst: "18,000.00",
+    itemCgst: "0.00",
+    itemSgst: "0.00",
   },
   {
     id: 2,
-    partyName: "TechCorp Solutions India",
-    state: "Delhi",
-    gstin: "07BBBCC1234D1Z2",
-    invalidReason: "Cancelled taxpayer status",
+    date: "05-04-2024",
+    type: "Sales Invoice",
+    voucherNo: "INV-2024-002",
+    itemName: "Wireless Mouse & Keyboard",
+    itemIgst: "0.00",
+    itemCgst: "225.00",
+    itemSgst: "225.00",
   },
   {
     id: 3,
-    partyName: "Global Traders & Co.",
-    state: "Gujarat",
-    gstin: "24CCCCD5678E1Z9",
-    invalidReason: "Checksum digit error",
+    date: "12-04-2024",
+    type: "Purchase Voucher",
+    voucherNo: "PUR-2024-089",
+    itemName: "Office Chair Ergonomic",
+    itemIgst: "0.00",
+    itemCgst: "1,080.00",
+    itemSgst: "1,080.00",
   },
   {
     id: 4,
-    partyName: "Shree Enterprises",
-    state: "Karnataka",
-    gstin: "29DDDEE9012F1Z4",
-    invalidReason: "Structure length exceeds 15 characters",
+    date: "18-04-2024",
+    type: "Credit Note",
+    voucherNo: "CN-2024-012",
+    itemName: "4K LED Monitor 27-inch",
+    itemIgst: "4,500.00",
+    itemCgst: "0.00",
+    itemSgst: "0.00",
   },
 ];
 
+// Columns mapping with unique keys
 const columns = [
   {
     label: "#",
     key: "id",
   },
   {
-    label: "NAME OF PARTY",
-    key: "partyName",
+    label: "DATE",
+    key: "date",
   },
   {
-    label: "STATE",
-    key: "state",
+    label: "TYPE",
+    key: "type",
   },
   {
-    label: "GSTIN",
-    key: "gstin",
+    label: "VOUCHER NO",
+    key: "voucherNo",
   },
   {
-    label: "REASON FOR INVALID GSTIN",
-    key: "invalidReason",
+    label: "ITEM NAME",
+    key: "itemName",
+  },
+  {
+    label: "ITEM IGST",
+    key: "itemIgst",
+  },
+  {
+    label: "ITEM CGST",
+    key: "itemCgst",
+  },
+  {
+    label: "ITEM SGST",
+    key: "itemSgst",
   },
 ];
 
