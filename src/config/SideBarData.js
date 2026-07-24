@@ -363,8 +363,8 @@ export const SideBarData = [
                 link: "/gst/audit-report/comman-mistake",
               },
               {
-                title: "Parties With Invalid GSTIN",
-                link: "/gst/audit-report/parties-gstin",
+                title: "Invalid Tax Rate in Vouchers",
+                link: "/gst/audit-report/invalidtax-rate",
               },
               {
                 title: "Supply Inworld Register",
