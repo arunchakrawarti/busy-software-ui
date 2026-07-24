@@ -351,6 +351,39 @@ export const SideBarData = [
               },
             ],
           },
+           {
+            title: "Audit Reports",
+            children: [
+              {
+                title: "Tax Audit Report-Clause-44",
+                link: "/gst/audit-report/tax-audit",
+              },
+              {
+                title: "Purchase Register",
+                link: "/gst/register/purchase-register",
+              },
+              {
+                title: "Supply Outworld Register",
+                link: "/gst/register/supply-outword",
+              },
+              {
+                title: "Supply Inworld Register",
+                link: "/gst/register/supply-inword",
+              },
+              {
+                title: "GSTR-2A Register",
+                link: "/gst/register/gstr-2a",
+              },
+              {
+                title: "GSTR-3A Register",
+                link: "/gst/register/gstr-3a",
+              },
+              {
+                title: "TDS & TDC Credit Recieved",
+                link: "/gst/register/tds-tcs-credit",
+              },
+            ],
+          },
         ],
       },
     ],
