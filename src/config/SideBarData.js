@@ -359,12 +359,12 @@ export const SideBarData = [
                 link: "/gst/audit-report/tax-audit",
               },
               {
-                title: "Purchase Register",
-                link: "/gst/register/purchase-register",
+                title: "Comman Mistakes",
+                link: "/gst/audit-report/comman-mistake",
               },
               {
-                title: "Supply Outworld Register",
-                link: "/gst/register/supply-outword",
+                title: "Parties With Invalid GSTIN",
+                link: "/gst/audit-report/parties-gstin",
               },
               {
                 title: "Supply Inworld Register",
