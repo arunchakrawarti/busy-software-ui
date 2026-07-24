@@ -343,7 +343,7 @@ export const SideBarData = [
               },
               {
                 title: "GSTR-3A Register",
-                link: "/gst/gst-summeries/purchase-summary",
+                link: "/gst/register/gstr-3a",
               },
               {
                 title: "TDS & TDC Credit Recieved",
