@@ -1,43 +1,58 @@
 "use client";
 import BasicTable from "@/components/common/BasicTable";
 
+// Columns ki exact keys ke hisab se audit expenditure data
 const data = [
   {
     id: 1,
-    sectionName: "4A - B2B Regular",
-    noOfRecords: 12,
-    totalInvoiceAmt: "2,50,000.00",
-    totalTaxableAmt: "2,10,000.00",
-    totalTaxLiability: "37,800.00",
-    totalCgstAmt: "18,900.00",
-    totalSgstAmt: "18,900.00",
-    totalIgstAmt: "0.00",
-    totalCess: "0.00",
+    sectionName: "Capital Goods Purchase",
+    totalAmount: "5,50,000.00",
+    exemptedGst: "50,000.00",
+    expComposition: "0.00",
+    expRegistered: "5,00,000.00",
+    totalPaymentReg: "5,90,000.00",
+    expUnregistered: "0.00",
   },
   {
     id: 2,
-    sectionName: "4B - B2B Reverse Charge",
-    noOfRecords: 5,
-    totalInvoiceAmt: "1,20,000.00",
-    totalTaxableAmt: "1,00,000.00",
-    totalTaxLiability: "18,000.00",
-    totalCgstAmt: "9,000.00",
-    totalSgstAmt: "9,000.00",
-    totalIgstAmt: "0.00",
-    totalCess: "0.00",
+    sectionName: "Raw Material Expenses",
+    totalAmount: "8,20,000.00",
+    exemptedGst: "1,20,000.00",
+    expComposition: "1,00,000.00",
+    expRegistered: "5,50,000.00",
+    totalPaymentReg: "6,49,000.00",
+    expUnregistered: "50,000.00",
   },
   {
     id: 3,
-    sectionName: "4C - B2C Large",
-    noOfRecords: 8,
-    totalInvoiceAmt: "3,75,000.00",
-    totalTaxableAmt: "3,25,000.00",
-    totalTaxLiability: "58,500.00",
-    totalCgstAmt: "0.00",
-    totalSgstAmt: "0.00",
-    totalIgstAmt: "58,500.00",
-    totalCess: "0.00",
-  }
+    sectionName: "Legal & Professional Fees",
+    totalAmount: "1,50,000.00",
+    exemptedGst: "0.00",
+    expComposition: "0.00",
+    expRegistered: "1,20,000.00",
+    totalPaymentReg: "1,41,600.00",
+    expUnregistered: "30,000.00",
+  },
+  {
+    id: 4,
+    sectionName: "Freight & Cartage Charges",
+    totalAmount: "95,000.00",
+    exemptedGst: "15,000.00",
+    expComposition: "20,000.00",
+    expRegistered: "40,000.00",
+    totalPaymentReg: "42,000.00",
+    expUnregistered: "20,000.00",
+  },
+  {
+    id: 5,
+    sectionName: "Office Supplies & Maintenance",
+    totalAmount: "65,000.00",
+    exemptedGst: "10,000.00",
+    expComposition: "15,000.00",
+    expRegistered: "25,000.00",
+    totalPaymentReg: "29,500.00",
+    expUnregistered: "15,000.00",
+  },
 ];
 
 const columns = [
@@ -46,40 +61,32 @@ const columns = [
     key: "id",
   },
   {
-    label: "SECTION NAME",
-    key: "sectionname",
+    label: "PARTICULAR OF EXPENDITURE",
+    key: "sectionName", // Key corrected to camelCase matching data
   },
   {
-    label: "NO. OF RECORDS",
-    key: "noOfRecords",
+    label: "TOTAL AMOUNT",
+    key: "totalAmount",
   },
   {
-    label: "TOTAL INVOICE AMT.",
-    key: "totalInvoiceAmt",
+    label: "EXEMPTED FROM GST(REG. ENTITY)",
+    key: "exemptedGst",
   },
   {
-    label: "TOTAL TAXABLE AMT.",
-    key: "totalTaxableAmt",
+    label: "EXP. UNDER COMPOSITION SCHEME",
+    key: "expComposition",
   },
   {
-    label: "TOTAL TAX LIABILITY",
-    key: "totalTaxLiability",
+    label: "EXP. UNDER REGISTERED ENTITY",
+    key: "expRegistered",
   },
   {
-    label: "TOTAL CGST AMT.",
-    key: "totalCgstAmt",
+    label: "TOTAL PAYMENT OF REGISTERED ENTITY",
+    key: "totalPaymentReg",
   },
   {
-    label: "TOTAL SGST AMT.",
-    key: "totalSgstAmt",
-  },
-  {
-    label: "TOTAL IGST AMT.",
-    key: "totalIgstAmt",
-  },
-  {
-    label: "TOTAL CESS",
-    key: "totalCess",
+    label: "EXP. UNDER UN-REGISTERED ENTITY",
+    key: "expUnregistered",
   },
 ];
 
@@ -94,10 +101,9 @@ export default function AuditTable() {
       />
 
       <div className="w-full border-t border-slate-200 p-4 sm:px-6 sm:py-4 bg-white flex flex-col gap-3">
-
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs">
           <span className="text-slate-500 font-medium">
-            Showing 1 of 8 rows
+            Showing {data.length} of {data.length} rows
           </span>
           <button
             type="button"
@@ -124,7 +130,7 @@ export default function AuditTable() {
             type="checkbox"
             className="w-4 h-4 text-blue-600 border-slate-300 rounded focus:ring-blue-500 cursor-pointer"
           />
-          <span>Don't refresh report after data modification</span>
+          <span>Don&apos;t refresh report after data modification</span>
         </label>
       </div>
     </div>

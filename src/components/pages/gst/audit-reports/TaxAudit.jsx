@@ -16,9 +16,6 @@ export default function TaxAudit() {
   return (
     <div className="w-full">
       <div className="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-3 px-4 sm:px-6 py-3 bg-white border border-slate-200 rounded-xl shadow-sm">
-        <span className="text-xs sm:text-sm font-medium text-slate-700 select-none">
-          From 01-04-2026 to 17-07-2026
-        </span>
 
         <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-slate-500">
           <button
