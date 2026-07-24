@@ -375,13 +375,18 @@ export const SideBarData = [
                 link: "/gst/audit-report/changetax-rate",
               },
               {
-                title: "GSTR-3A Register",
-                link: "/gst/register/gstr-3a",
+            title: "GST Expense Audit",
+            children: [
+              {
+                title: "Expense-GST Nature wise",
+                link: "/gst/audit-report/expense-gst",
               },
               {
-                title: "TDS & TDC Credit Recieved",
-                link: "/gst/register/tds-tcs-credit",
-              },
+                title: "GST Nature-Expense wise",
+                link: "/gst/audit-report/gst-expense-wise",
+              }
+            ],
+          },
             ],
           },
         ],
