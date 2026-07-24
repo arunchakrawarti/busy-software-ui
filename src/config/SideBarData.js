@@ -398,7 +398,7 @@ export const SideBarData = [
               },
               {
                 title: "Electronic Cash/Credit Ledger",
-                link: "/gst/audit-report/comman-mistake",
+                link: "/gst/gst-ledgers/electronic-cash",
               },
               {
                 title: "Electronic Liability Register",
